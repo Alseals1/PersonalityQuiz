@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6B2221B2A8448770021E2E5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B2221A2A8448770021E2E5 /* Question.swift */; };
 		C6B35E1B2A8403EE0029E27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B35E1A2A8403EE0029E27A /* AppDelegate.swift */; };
 		C6B35E1D2A8403EE0029E27A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B35E1C2A8403EE0029E27A /* SceneDelegate.swift */; };
 		C6B35E1F2A8403EE0029E27A /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B35E1E2A8403EE0029E27A /* IntroductionViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6B2221A2A8448770021E2E5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		C6B35E172A8403EE0029E27A /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B35E1A2A8403EE0029E27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6B35E1C2A8403EE0029E27A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				C6B35E2E2A840F850029E27A /* QuestionViewController.swift */,
 				C6B35E302A840FA00029E27A /* ResultsViewController.swift */,
 				C6B35E202A8403EE0029E27A /* Main.storyboard */,
+				C6B2221A2A8448770021E2E5 /* Question.swift */,
 				C6B35E232A8403F00029E27A /* Assets.xcassets */,
 				C6B35E252A8403F00029E27A /* LaunchScreen.storyboard */,
 				C6B35E282A8403F00029E27A /* Info.plist */,
@@ -147,6 +150,7 @@
 				C6B35E1F2A8403EE0029E27A /* IntroductionViewController.swift in Sources */,
 				C6B35E1B2A8403EE0029E27A /* AppDelegate.swift in Sources */,
 				C6B35E2F2A840F850029E27A /* QuestionViewController.swift in Sources */,
+				C6B2221B2A8448770021E2E5 /* Question.swift in Sources */,
 				C6B35E312A840FA00029E27A /* ResultsViewController.swift in Sources */,
 				C6B35E1D2A8403EE0029E27A /* SceneDelegate.swift in Sources */,
 			);
