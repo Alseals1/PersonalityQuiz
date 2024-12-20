@@ -4,15 +4,16 @@ import { Hero } from "./components/hero/Hero";
 import Parallax from "./components/parallax/parallax";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
     <div>
       <section id="Homepage">
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
       </section>
-      <section id="Homepage">
+      {/* <section id="Homepage">
         <Parallax type="services" />
       </section>
       <section id="Services">
@@ -23,9 +24,10 @@ const App = () => {
       </section>
       <Portfolio />
 
-      <section id="Contact">Contact</section>
-      {/* <Test />
-      <Test /> */}
+      <section id="Contact">
+        <Contact />
+      </section>
+       */}
     </div>
   );
 };
