@@ -45,12 +45,52 @@ export const Hero = () => {
           <motion.h2 variants={textVariants}>Alandis Seals</motion.h2>
           <motion.h1 variants={textVariants}>Developer</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>
-              See the latest works
+            {/* Latest Works Button START*/}
+
+            <motion.button
+              variants={textVariants}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <a
+                href="#Portfolio"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                See the latest works
+              </a>
             </motion.button>
-            <motion.button variants={textVariants}>
-              Contact <menu></menu>
+
+            {/* Latest Works Button END*/}
+            {/* Contact Button START*/}
+            <motion.button
+              variants={textVariants}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <a
+                href="#Contact"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                Contact
+              </a>
             </motion.button>
+            {/* Contact Button END*/}
+
+            {/* Download Resume Button START*/}
+            <motion.button
+              variants={textVariants}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <a
+                href="/AlandisResumeNov2024.pdf"
+                download="My_Resume.pdf"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                Download Resume
+              </a>
+            </motion.button>
+            {/* Download Resume Button END */}
           </motion.div>
           <motion.img
             variants={textVariants}

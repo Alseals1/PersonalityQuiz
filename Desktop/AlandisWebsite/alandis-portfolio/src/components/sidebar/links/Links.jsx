@@ -28,7 +28,7 @@ export const Links = () => {
   };
 
   return (
-    <motion.div className="link" variants={variants}>
+    <motion.div className="links" variants={variants}>
       {items.map((item) => (
         <motion.a
           href={`#${item}`}

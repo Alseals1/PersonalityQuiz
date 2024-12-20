@@ -11,9 +11,9 @@ const App = () => {
     <div>
       <section id="Homepage">
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
       </section>
-      {/* <section id="Homepage">
+      <section id="Homepage">
         <Parallax type="services" />
       </section>
       <section id="Services">
@@ -27,7 +27,6 @@ const App = () => {
       <section id="Contact">
         <Contact />
       </section>
-       */}
     </div>
   );
 };
